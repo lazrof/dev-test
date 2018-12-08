@@ -1,3 +1,8 @@
+# Herramientas usadas
+- Realice la prueba usando Django como backend, y su sistema de plantillas. Para las demas funcionalidades se uso JavaScript y Jquery.
+
+Autor - Nunzio Ruffo.
+
 # Requerimiento:
 
 - Se requiere maquetar la siguiente landing page usando **Bootstrap 4**.
