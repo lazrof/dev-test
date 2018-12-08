@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+	<!-- Page 1 Content -->
+    <section class="py-5 text-center" id="page1">
+      <div class="container col-xs-12">
+        
+        <h1 class="text-center" > PAGE 1 <b>CHECK FIELDS</b></h1>
+        <div class="row">
+          <form method="get" class="">
+            <div class="form-row align-items-center ">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Question 1...</label>
+                  <select class="custom-select mr-sm-2" id="question-1">
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+
+                  </select>
+                </div>
+              </div>
+              <!-- //// -->
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">Question 2...</label>
+                    <select class="custom-select mr-sm-2" id="question-2">
+                      <option value="true">Yes</option>
+                      <option value="false">No</option>
+                    </select>
+                  </div>
+              </div>
+              <!-- \\\\ -->
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">Question 3...</label>
+                    <select class="custom-select mr-sm-2" id="question-3">
+                      <option value="true">Yes</option>
+                      <option value="false">No</option>
+                    </select>
+                  </div>
+              </div>
+            <!-- \\\\ -->
+            </div>
+            <div class="form-row align-items-center ">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+              
+              <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Question 4...</label>
+                  <select class="custom-select mr-sm-2" id="question-4">
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                  </select>
+                </div>
+              </div>
+              <!-- //// -->
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">Question 5...</label>
+                    <select class="custom-select mr-sm-2" id="question-5">
+                      <option value="true">Yes</option>
+                      <option value="false">No</option>
+                    </select>
+                  </div>
+              </div>
+              <!-- \\\\ -->
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect">Question 6...</label>
+                    <select class="custom-select mr-sm-2" id="question-6">
+                      <option value="true">Yes</option>
+                      <option value="false">No</option>
+                    </select>
+                  </div>
+              </div>
+            <!-- \\\\ -->
+            </div>
+          </form>
+        </div>
+        <!-- Console results -->
+        <div class="card text-left">
+          <div class="card-body" id="results">
+            <h5>Questions Change: True</h5>
+          </div>
+        </div>
+        <div class="page-1-text" style="margin-bottom: 4rem;">
+          <p class="text-left ">If any answer on the form is "Yes", then the console must show a "true" message</p>
+          <p class="text-left ">If all answers on the form are "No", then the console must show a "false" message</p>
+        </div>
+        <button class="btn btn-primary btn-lg text-center" id="next2" style="border: none; background-color: #512182;" >Go to Bottom</button>
+      </div>
+
+    </section>
+    <!-- End Page 1 -->
+    <!-- Page 2 -->
+    <section class="py-4 text-center" id="page2">
+      <div class=" container col-xs-12">
+        <h1 class="text-center"> PAGE 2 <b>TEXT</b></h1>
+        <div class="row text-justify">
+          <div class="col-xs-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quisquam facilis assumenda eos iure nihil tempore incidunt, distinctio commodi, architecto accusantium illum magni porro doloribus ipsa? Possimus quidem obcaecati fugiat!</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quisquam facilis assumenda eos iure nihil tempore incidunt, distinctio commodi, architecto accusantium illum magni porro doloribus ipsa? Possimus quidem obcaecati fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, sunt aperiam ducimus.</p>
+          </div>
+        </div>
+        <!-- ///// -->
+        <div class="row text-justify">
+          <div class="col-xs-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quisquam facilis assumenda eos iure nihil tempore incidunt, distinctio commodi, architecto accusantium illum magni porro doloribus ipsa? Possimus quidem obcaecati fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, in.</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quisquam facilis assumenda eos iure nihil tempore incidunt, distinctio commodi, architecto accusantium illum magni porro doloribus ipsa? Possimus quidem obcaecati fugiat!</p>
+          </div>
+        </div>
+        <!--\\\\\ -->
+        <button class="btn btn-primary btn-lg text-center" id="next3" style="border: none; background-color: #6f42c1ba;"> Go Bottom</button>
+      </div>
+    </section>
+    <!-- End Page 2 -->
+    <!-- Page 3 -->
+    <section class="py-5 page-3" id="page3">
+      <div class="container col-xs-12 text-center">
+        <h1 class="text-center"> PAGE 3 <b>JUST IMAGES</b></h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'img/card-1.png' %}" class="img-fluid" alt="">
+              <div class="card-text text-center font-weight-light">
+                SO NICE
+              </div>
+            </div>
+          </div>
+          <!--\\\\ -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'img/card-2.png' %}" class="img-fluid" alt="">
+              <div class="card-text text-center font-weight-light">
+                SO COOL
+              </div>
+            </div>
+          </div>
+          <!--\\\\ -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{% static 'img/card-3.png' %}" class="img-fluid" alt="">
+              <div class="card-text text-center font-weight-light">
+                SO PEACEFUL
+              </div>
+            </div>
+          </div>
+          <!--\\\\ -->
+          </div>
+          <button class="btn btn-primary btn-lg text-center" id="next4" style="border: none; background-color: #512182; margin-top: 3rem;"> Go to Bottom</button>
+      </div>
+    </section>
+    <!-- End Page 3 -->
+    <!-- Page 4 -->
+    <section class="py-4 text-center" id="thankyou">
+      
+        <h1 class="page-4 text-center"> THANK <b>YOU</b></h1>
+        <button class="btn btn-primary btn-lg text-center" id="up" style="border: none; background-color: #6f42c1ba;"> Go to header</button>
+    </section>
+{% endblock %}
+

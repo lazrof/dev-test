@@ -1,0 +1,136 @@
+/* General */
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 3.3rem;
+	margin-top: 5rem;
+	margin-bottom: 4rem;
+}
+
+p .page-1-text {
+	margin-bottom: 4rem;
+}
+
+.fa-caret-down {
+	color: white;
+}
+/* Carousel  */
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#indicators {
+	display: none;
+}
+
+.navbar {
+	padding-top: 3rem;
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   position: absolute;
+}
+
+/* Navbar */
+.nav-item {
+	margin-left: 2rem;
+	margin-bottom: .7rem;
+}
+
+.nav-link {
+	margin-left: 2.5rem;
+	color: white;
+
+}
+.nav-link:hover {
+	color: rgb(204,204,204);
+	
+}
+
+
+/* Buttons */
+.btn {
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.btn .btn-primary {
+	border: none;
+}
+
+.btn .btn-outline-default{
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+button .btn .btn-primary .btn-lg {
+	padding: 5rem;
+	background-color: purple;
+}
+
+/* Section 1 */
+
+.py-5 {
+	background-color: #5E2697;
+}
+
+.form-row {
+	text-align: center;
+}
+
+.col-auto {
+	margin: 2rem;
+}
+
+#inlineFormCustomSelect {
+	height: 3rem;
+	width: 9rem;
+}
+
+.card {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	background-color: #6f42c199;
+}
+
+
+/* Section 2 */
+
+.py-4 {
+	background-color: #512182;
+}
+
+/* Section 3*/
+
+.py-5 .page-3 {
+	background-color: #431B6C;
+}
+
+.card-text {
+	color: #9197A8;
+	background-color: white;
+	padding: 2rem;
+	margin-bottom: 3rem;
+}
+
+/* Section 4*/
+
+.py-4 .page-4 {
+	margin: none !important;
+	height: 10rem;
+}
+
+h1 .page-4 {
+	padding: 20rem;
+}
